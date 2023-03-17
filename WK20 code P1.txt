@@ -7,7 +7,7 @@ public class HelloWorld{
         String[] strArray = new String[] {"Andy","Ben","Charlie","David","Edward","Frank","George", "Hank", "Ian"};
         for (int point = 0; point <= strArray.length-1; point++) {
             int nodePos = point;
-            int child1Pos = ((point+1)*2)-1;
+            int child1Pos = ((point+1)*2)-1; #A comment
             int child2Pos = ((point+1)*2);
             System.out.println("node: " + strArray[nodePos]);
 
